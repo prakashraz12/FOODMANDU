@@ -1,0 +1,88 @@
+.hero__container {
+    height: 100vh;
+    background: url('../../assets//images/h1_hero.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main__hero {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 50rem;
+    padding: 10rem 5rem;
+}
+
+.text__area p {
+    color: rgb(255, 72, 0);
+    font-size: 17px;
+}
+
+.text__area h1 {
+    font-size: 3rem;
+}
+.text__area h1 .h1__md{
+    color: rgb(255, 72, 0);
+
+}
+.text__area h5{
+    margin-top: 0.4rem;
+    font-size: 16px;
+    font-family: 'raleway';
+}
+.main__hero .btn .order_now{
+    color: white;
+    background:  rgb(255, 72, 0);
+    border: none;
+    padding: 0.6rem 0.9rem;
+    border-radius: 7px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.ex__{
+    margin-top: 3rem;
+    background: whitesmoke;
+}
+.about__chef{
+    margin-top: 20px;
+}
+
+
+
+@media(max-width:768px){
+    .main__hero {
+        display:flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        width: 30rem;
+        padding: 10rem 4rem;
+    }
+    .hero__container {
+        height: 80vh;
+       width: 100%;
+        background-position:center;
+        background-size: cover;
+    }
+    .text__area h1 {
+        font-size: 2rem;
+    }
+}
+.filter__products{
+    height: 120vh;
+}
+@media(max-width:425px){
+    .main__hero {
+      justify-content: center;
+        width: 20rem;
+        padding: 4rem 2rem;
+    }
+    .hero__container {
+        height: 70vh;
+       width: 100%;
+        background-position:calc(70%);
+        background-size: cover;
+    }
+    .text__area h1 {
+        font-size: 1.9rem;
+    }
+}

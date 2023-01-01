@@ -1,0 +1,36 @@
+.exclusive__section{
+    padding: 20px 80px;
+}
+.exclusive__section .text__ p{
+    font-size: 16px;
+}
+.exclusive__section .text__ h1{ 
+ font-size: 3.5rem;
+ color: orangered;
+font-family: 'raleway';
+}
+@media(max-width:1024px){
+    .exclusive__section{
+        padding: 20px 70px;
+    }
+    .exclusive__section .text__ h1{ 
+        font-size: 3.2rem;
+       
+       }
+}
+@media(max-width:832px){
+    .exclusive__section{
+        padding: 20px 40px;
+    } 
+    .exclusive__section .text__ h1{ 
+        font-size: 3rem;
+    }
+}
+@media(max-width:650px){
+    .exclusive__section{
+        padding: 20px 20px;
+    } 
+    .exclusive__section .text__ h1{ 
+        font-size: 2rem;
+    }
+}

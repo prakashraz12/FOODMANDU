@@ -1,0 +1,16 @@
+
+.menu__banner{
+    background: url('../../assets/images/h1_hero.png') no-repeat;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.menu__banner h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: orangered;
+}

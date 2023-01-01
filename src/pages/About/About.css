@@ -1,0 +1,87 @@
+.about__area h1{
+    text-align: center;
+    margin-top: 8%;
+    color: orangered;
+}
+.about__area{
+    position: relative;
+    padding-top: 80px;
+    background: url('../../assets/images/h1_hero.png') no-repeat;
+    height: 60vh;
+    background-size:cover;
+}
+.hot__section{
+    margin-top: 3rem;
+}
+.best__services{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.best__services .text___area- h1{
+  color: orangered;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+.subscrib{
+    background:whitesmoke;
+    margin:5rem 0px;
+    height: 40vh;
+}
+.sub{
+padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}.sub input{
+border: none;    outline: none;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+@media(max-width:768px){
+    .about__area{
+        position: relative;
+        padding-top: 40px;
+
+        height: 50vh;
+        
+    }
+    .about__area h1{
+        position: absolute;
+        top:50%;
+        left: 40%;
+        
+    }
+    .subscrib{
+        background:whitesmoke;
+        margin:5rem 0px;
+        height: 30vh;
+        position: relative;
+    }
+    .sub{
+        position: absolute;
+   left: 30%;
+   top: 15%;
+        
+    }.sub input{
+    
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+}
+@media(max-width:425px){
+  
+    .sub{
+       
+   left: 15%;
+   top: 15%;
+        
+    }.sub input{
+    
+        font-size: 12px;
+        padding: 7px 10px;
+    }
+}

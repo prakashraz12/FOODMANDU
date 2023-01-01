@@ -1,0 +1,226 @@
+.chef__section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 70px;
+    gap: 0.5rem;
+    width: 100%;
+}
+.chef__section .right p{
+    font-size: 1.2rem;
+}
+.chef__section .right h1{
+    font-size: 3.2rem;
+    color: orangered;
+}
+.chef__section .right{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.chef__section .right .icon__section{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    color: orangered ;
+    margin-top: 1rem;
+}.chef__section .right .icon__section .chef img{
+    height: 1.7rem;
+}
+.chef__section .right .icon__section .food img{
+height: 1.7rem;
+}
+
+.chef__section .right .icon__section .chef{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+.chef__section .right .icon__section .food{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.chef__section .left{
+    position: relative;
+}
+.chef__section .left img{
+
+   
+    height: 400px;
+    width: 400px;
+    
+}
+.chef__section .left .ring{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background:orangered;
+    border-radius: 5px;
+
+    left: -4%;
+    z-index: -999;
+    top:5%;
+}
+@media(max-width:1024px){
+.chef__section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 70px;
+    gap: 0.5rem;
+    width: 100%;
+}
+.chef__section .right p{
+    font-size: 1.2rem;
+}
+.chef__section .right h1{
+    font-size: 3.2rem;
+    color: orangered;
+}
+.chef__section .right{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.chef__section .right .icon__section{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    color: orangered ;
+    margin-top: 1rem;
+}.chef__section .right .icon__section .chef img{
+    height: 1.7rem;
+}
+.chef__section .right .icon__section .food img{
+height: 1.7rem;
+}
+
+.chef__section .right .icon__section .chef{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+.chef__section .right .icon__section .food{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.chef__section .left{
+    position: relative;
+}
+.chef__section .left img{
+
+   
+    height: 400px;
+    width: 400px;
+    
+}
+.chef__section .left .ring{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background:orangered;
+    border-radius: 5px;
+
+    left: -4%;
+    z-index: -999;
+    top:5%;
+}
+}
+@media(max-width:768px){
+.chef__section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    padding: 40px 60px;
+    gap: 1.5rem;
+}
+.chef__section .right p{
+    font-size: 1rem;
+}
+.chef__section .right h1{
+    font-size: 2.5rem;
+   
+}
+.chef__section .right{
+    width: 90%;
+
+}
+.chef__section .right .icon__section h2{
+    font-size: 16px;
+}
+.chef__section .right .icon__section{
+    display: flex;
+    gap: 0.7rem;
+}.chef__section .right .icon__section .chef img{
+    height: 1.7rem;
+}
+.chef__section .right .icon__section .food img{
+height: 1.7rem;
+}
+
+.chef__section .right .icon__section .chef{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+.chef__section .right .icon__section .food{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.chef__section .left{
+    position: relative;
+}
+.chef__section .left img{
+
+   
+    height: 400px;
+    width: 400px;
+    
+}
+.chef__section .left .ring{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background:orangered;
+    border-radius: 4px;
+
+    left: -4%;
+    z-index: -999;
+    top:5%;
+}
+}
+@media(max-width:425px){
+    .chef__section{
+      
+        padding: 40px 50px;
+        
+    }
+    
+    .chef__section .right .icon__section h2{
+        font-size: 13px;
+    }
+    
+   .right h1{
+    font-size: 13px;
+   }
+    .chef__section .left img{
+    
+       
+        height: 300px;
+        width: 300px;
+        
+    }
+    .chef__section .left .ring{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+    }
+    }
+
+

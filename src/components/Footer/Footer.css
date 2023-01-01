@@ -1,0 +1,108 @@
+.footer__{
+    height:50vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    background: url('../../assets/images/hero2.png');
+    justify-content: space-between;
+    padding: 50px 80px;
+    margin-top: 50px;
+
+}
+.footer__ .section_1 img{
+    width: 200px;
+}
+.footer__ .section_2, .section_3, .section_4{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer__ .section_2, .section_3, ul li a{
+    color: black;
+    font-size: 17px;
+}
+.footer__ .section_4 ul {
+    display: flex;
+    gap: 0.7rem;
+}
+.footer__ .section_4 ul span i{
+    font-size:20px;
+}
+.contact{
+    display: flex;
+   
+    flex-direction: column;
+}
+.contact .phone, .email{
+    font-size:19px;
+}
+
+@media(max-width:768px){
+    .footer__{
+        height:30vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    margin-top: 50px;
+    }
+    .footer__ .section_1 img{
+        width: 100px;
+    }
+    .footer__ .section_2, .section_3, .section_4{
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+    .footer__ .section_2, .section_3, ul li a{
+        color: black;
+        font-size: 15px;
+    }
+    .footer__ .section_4 ul {
+        display: flex;
+        gap: 0.5rem;
+    }
+    .footer__ .section_4 ul span i{
+        font-size:17px;
+    }
+    
+    .contact .phone, .email{
+        font-size:15px;
+    }
+}
+@media(max-width:425px){
+    .footer__{
+       
+        height:auto;
+        display: flex;
+flex-direction: column;       
+        margin-top: 50px;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    .footer__ .section_1 img{
+        width: 80px;
+    }
+    .footer__ .section_2, .section_3, .section_4{
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+    .footer__ .section_2, .section_3, ul li a{
+        color: black;
+        font-size: 15px;
+    }
+    .footer__ .section_4 ul {
+        display: flex;
+        gap: 0.5rem;
+    }
+    .footer__ .section_4 ul span i{
+        font-size:17px;
+    }
+    
+    .contact .phone, .email{
+        font-size:15px;
+    }
+}

@@ -1,0 +1,66 @@
+.contact__main {
+    background: whitesmoke;
+    height: 80vh;
+    display: flex;
+    padding:  80px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.google-map-code{
+    padding-top: 100px 0px;
+}
+.google-map-code iframe{
+    width:100%;
+}
+.contact__main .right__ form{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact__main .right__ form textarea{
+    width: 400px;
+    border: 2px solid orangered;
+    outline: none;
+    padding: 10px ;
+}
+.contact__main .right__ form input{
+    font-size: 15px;
+    padding: 7px 20px;
+border: 2px solid orangered;
+outline: none;}
+.contact__main .left__{
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+gap: 3rem;
+}
+.contact__main .left__ span i{
+    font-size: 27px;
+}
+@media(max-width:768px){
+    .contact__main {
+      
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        padding:  40px;
+        align-items: center;
+        
+    }
+    .contact__main .right__ form{
+        display: flex;
+        height: 400px;
+       
+        gap: 1rem;
+    }
+    .contact__main .right__ form textarea{
+        width: 400px;
+        padding: 10px ;
+    }
+  
+    .contact__main .left__{
+       display: none;
+    }
+    
+}

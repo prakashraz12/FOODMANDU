@@ -1,0 +1,125 @@
+.product__card{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   align-items: center;
+
+}
+
+.product__card .container__{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;    gap: 1rem;
+}
+.name__area h1{
+    margin-top: 0.7rem;
+    color:rgb(255, 72, 0) ;
+    font-size: 1.5rem;
+}
+.product__card .container__ .image__area img{
+    height: 12rem;
+}
+.product__card .container__ .name__area .add_{
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+
+@media(max-width:1024px){
+    .product__card{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+     }
+     .product__card .container__{
+         width: 250px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 0.7rem;
+         gap: 0.5rem;
+     }
+     .name__area h1{
+         margin-top: 0.7rem;
+         color:rgb(255, 72, 0) ;
+         font-size: 1rem;
+     }
+     .product__card .container__ .image__area img{
+         height: 10rem;
+     }
+     .product__card .container__ .name__area .add_{
+         
+         border-radius: 3px;
+         padding: 0.5rem 0.4rem;
+         margin-top: 0.5rem;
+         cursor: pointer;
+     }
+     
+}
+@media(max-width:832px){
+    .product__card{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr 200px);
+        align-items: center;
+     }
+     .product__card .container__{
+         width: 200px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 0.5rem;
+         gap: 0.2rem;
+     }
+     .name__area h1{
+         margin-top: 0.5rem;
+         color:rgb(255, 72, 0) ;
+         font-size: 0.7rem;
+     }
+     .product__card .container__ .image__area img{
+         height: 6rem;
+     }
+     .product__card .container__ .name__area .add_{
+         
+         border-radius: 3px;
+         padding: 0.2rem 0.3rem;
+         margin-top: 0.5rem;
+         cursor: pointer;
+     }
+}
+@media(max-width:650px){
+    .product__card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+     }
+     .product__card .container__{
+         width: 150px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 0.5rem;
+         gap: 0.2rem;
+     }
+     .name__area h1{
+         margin-top: 0.5rem;
+         color:rgb(255, 72, 0) ;
+         font-size: 0.5rem;
+     }
+     .product__card .container__ .image__area img{
+         height: 5rem;
+     }
+     .product__card .container__ .name__area .add_{
+         
+         border-radius: 3px;
+         padding: 0.2rem 0.3rem;
+         margin-top: 0.5rem;
+         cursor: pointer;
+     }
+}
